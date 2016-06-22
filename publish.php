@@ -5,7 +5,7 @@
    include_once( 'saetv2.ex.class.php' );
    $params = array(
       'title' => "头条文章发布测试",
-      'content' => urlencode("今天是2016年5月31日周二"),
+      'content' => rawurlencode("今天是2016年5月31日周二"),
       'cover' => "http://ww1.sinaimg.cn/crop.0.0.320.179.1000.562/baaa02f7jw1f455n706p3j208w0e6ta0.jpg",
       'summary' => "5.31",
       'text' => "hi~",
